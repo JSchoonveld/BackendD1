@@ -1,6 +1,8 @@
 <?php
 
-$names = ['Bart','Jesse', 'Mert', 'Meko', 'Sanne','Piet','Laurie'];
+$nameFilter = $_GET['nl'];
+
+$names = ['Bart','Jesse', 'Mert', 'Bo', 'Sanne','Piet','Laurie','Pascal','Ad','Adi'];
 
 
 ?>
@@ -18,7 +20,11 @@ $names = ['Bart','Jesse', 'Mert', 'Meko', 'Sanne','Piet','Laurie'];
 <p>
 <?php
 foreach ($names as $value){
-    echo $value . '<br>';
+
+    if(strlen($value) == $nameFilter){
+        echo $value . '<br>';
+    }
+
 }
 ?>
 </p>
