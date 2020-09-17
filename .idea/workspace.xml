@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a72c5576-714f-4b48-b4a0-213ca3b4e014" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP XAMPP" />
+  <component name="ProjectId" id="1hUbdJ2voPTbbDsiFcBBtuZJf07" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavascriptBlok1" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Opdracht1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a72c5576-714f-4b48-b4a0-213ca3b4e014" name="Default Changelist" comment="" />
+      <created>1600068703219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600068703219</updated>
+      <workItem from="1600068704262" duration="6004000" />
+      <workItem from="1600080113727" duration="17000" />
+      <workItem from="1600099088301" duration="3001000" />
+      <workItem from="1600110138275" duration="912000" />
+      <workItem from="1600111178016" duration="143000" />
+      <workItem from="1600111472622" duration="1085000" />
+      <workItem from="1600112865964" duration="3229000" />
+      <workItem from="1600152987871" duration="555000" />
+      <workItem from="1600153982304" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3317" y="277" key="#CLI_Interpreters" timestamp="1600110561619">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3317" y="277" key="#CLI_Interpreters/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1600110561619" />
+    <state x="3351" y="-118" key="#PHP" timestamp="1600069188498">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3351" y="-118" key="#PHP/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1600069188498" />
+    <state x="818" y="285" key="FileChooserDialogImpl" timestamp="1600154013148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="285" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600154013148" />
+    <state x="3466" y="250" key="NewPhpFileDialog" timestamp="1600113102038">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3466" y="250" key="NewPhpFileDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1600113102038" />
+    <state x="3238" y="267" key="SettingsEditor" timestamp="1600110563673">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3238" y="267" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1600110563673" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600099403924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1600099403924" />
+  </component>
+</project>
