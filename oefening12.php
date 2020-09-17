@@ -1,7 +1,11 @@
 <?php
+
+$names = ['Bart','Jesse', 'Mert', 'Meko', 'Sanne','Piet','Laurie'];
+
+
 ?>
 
-<<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +15,12 @@
     <title>Document</title>
 </head>
 <body>
-
+<p>
+<?php
+foreach ($names as $value){
+    echo $value . '<br>';
+}
+?>
+</p>
 </body>
 </html>
