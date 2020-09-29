@@ -1,7 +1,7 @@
 <?php
 
 //variabel waarmee je het aantal worpen kan aanpassen via de querystring.
-$throws = $_GET['t'];
+$throws = $_GET['t'] ?? 0;
 echo "Het aantal worpen: $throws <br><br>";
 //Lege array om de worpen in op te slaan.
 $result = [];
@@ -41,6 +41,7 @@ echo "<br> Het aantal zessen: $sixes"
 </head>
 <body>
 
+<h2>Gebruik de query variabel 't' om het aantal worpen te geven. </h2>
 
 </body>
 </html>

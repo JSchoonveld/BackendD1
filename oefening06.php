@@ -1,12 +1,11 @@
 <?php
 
-$lengte = 5;
-$breedte = 7;
-$hoogte =2;
-$verfPrijs = 2;
-
-$oppervlakte = $lengte * $breedte * $hoogte;
-$kosten = $oppervlakte * $verfPrijs;
+$lengte = $_GET['l'];
+$breedte = $_GET['b'];
+$hoogte = $_GET['h'];
+$verfprijs = $_GET['v'];
+$oppervlakte = (($lengte * $hoogte) * 2) + ($breedte * $hoogte) *2;
+$kosten = $oppervlakte * $verfprijs;
 
 ?>
 
@@ -22,9 +21,14 @@ $kosten = $oppervlakte * $verfPrijs;
 
 <p>Dit is oefening nummer 6</p>
 
-<p>De totale oppervlakte van de muren is <?php echo $oppervlakte ?> vierkante meter <br>
-De verf kost<?php echo $verfPrijs ?> euro per vierkante meter <br>
-De totale kosten zijn <?php echo $kosten ?> euro</p>
+<p><?php if ($lengte > 0 && $breedte > 0 && $hoogte > 0 && $verfprijs > 0) {
+        echo 'Oppervlakte muren: ' . $oppervlakte . ' vierkante meter.';
+        echo '<br>Kosten: ' . $kosten . ' euro';
+    } else {
+        echo "Een van de parameters is een nul of lager";
+    } ?>
+    <br>Prijs van de verf: <?php echo $verfprijs ?> euro per vierkante meter <br>
 
+</p>
 </body>
 </html>

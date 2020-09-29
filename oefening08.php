@@ -1,17 +1,15 @@
 <?php
 
-$my_dice = rand(1,6);
-$other_dice = rand(1,6);
+$my_dice = rand(1, 6);
+$other_dice = rand(1, 6);
 
 $result = '';
 
-if ($my_dice > $other_dice){
+if ($my_dice > $other_dice) {
     $result = 'hoger';
-}
-elseif ($my_dice < $other_dice){
+} elseif ($my_dice < $other_dice) {
     $result = 'lager';
-}
-else {
+} else {
     $result = 'even';
 }
 

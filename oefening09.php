@@ -6,7 +6,7 @@ $throws = $_GET['t'];
 $result = [];
 
 //For loop die de resultaten van de worpen in de array $result stopt en de individuele worpen op de pagina weergeeft
-for($i = 1; $i <= $throws; $i++) {
+for ($i = 1; $i <= $throws; $i++) {
     $num = rand(1, 6);
     array_push($result, $num);
     echo "Worp $i = $num <br>";
@@ -27,9 +27,6 @@ echo "The amount of throws is $throws";
     <link rel="stylesheet" href="myStyle.css">
 </head>
 <body>
-
-
-
 
 
 </body>
